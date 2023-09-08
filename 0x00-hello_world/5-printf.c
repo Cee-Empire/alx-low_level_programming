@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - A program that uses printf function to print a line
  * Return: 0 (Successful)
