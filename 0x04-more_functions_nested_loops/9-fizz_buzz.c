@@ -7,28 +7,29 @@
  */
 int main(void)
 {
-    int i;
+	int i;
 
-    for (i = 1; i <= 100; i++) // Corrected loop condition
-    {
-        if ((i % 3) == 0 && (i % 5) == 0) // Corrected the condition
-        {
-            printf("FizzBuzz ");
-        }
-        else if (i % 3 == 0)
-        {
-            printf("Fizz ");
-        }
-        else if (i % 5 == 0)
-        {
-            printf("Buzz ");
-        }
-        else
-        {
-            printf("%d ", i);
-        }
-    }
-    printf("\n");
+	for (i = 1; i < 100; i++)
+	{
+	if ((i % 3) == 0 && (i & 5) == 0)
+	{
+	printf("Fizzbuss ");
+	}
+	else if (i % 3 == 0)
+	{
+	printf("Fizz ");
+	}
+	else if (i % 5 == 0)
+	{
+	printf("Buzz ");
+	}
+	else
+	{
+	printf("%d ", i);
+	}
+	}
+	printf("Buzz");
+	printf("\n");
 
-    return (0);
+	return (0);
 }
